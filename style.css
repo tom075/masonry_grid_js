@@ -1,0 +1,50 @@
+.grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    grid-auto-rows: 20px;
+}
+
+body {
+    margin: 10px;
+    font-size: 1.15em;
+
+}
+
+.wrapper {
+    background-color: white;
+    border: solid;
+
+
+}
+
+.image{
+    width: 100%;
+
+}
+.content{
+
+    text-align: center;
+}
+
+
+h3{
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+
+
+.beschrijving{
+    padding: 10px 10px 5px 10px;
+}
+
+.beschrijving img{
+    width: 50%;
+    margin: 0 10px 10px 0;
+    float: left;
+}
+
+.beschrijving p{
+    margin-bottom: 10px;
+}
